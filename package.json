@@ -1,0 +1,40 @@
+{
+  "name": "ipsentry",
+  "description": "Lightweight Connect Middleware access control with ip addresses",
+  "keywords": [
+    "access control",
+    "ip address",
+    "middleware",
+    "connect"
+  ],
+  "main": "./lib/ipsentry",
+  "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
+  "version": "0.0.0",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shapeshed/ipsentry.git"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "connect": "latest",
+    "request": "latest",
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-mocha-test": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/shapeshed/ipsentry/issues"
+  },
+  "scripts": {
+    "test": "grunt build"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shapeshed/ipsentry/raw/master/LICENSE"
+    }
+  ]
+}
